@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1618F8257D3CAF00117BA5 /* coffeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1618F7257D3CAF00117BA5 /* coffeeController.swift */; };
+		8F16191A257E575300117BA5 /* Settings2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F161919257E575300117BA5 /* Settings2Controller.swift */; };
+		8F16191E257E65AA00117BA5 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F16191D257E65AA00117BA5 /* InformationController.swift */; };
+		8F161921257E702300117BA5 /* machineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F161920257E702300117BA5 /* machineController.swift */; };
+		8F409FDB2578CCD000C266ED /* Pods_E_COFFEE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAC0026A6F97BE11C4E5B74 /* Pods_E_COFFEE.framework */; };
+		8F40A004257975DA00C266ED /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F40A003257975DA00C266ED /* SettingsController.swift */; };
+		8F79E5042577E6E800CDE4F1 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F79E5032577E6E800CDE4F1 /* SignupController.swift */; };
+		8F94692B2577DAB300535B69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F94692A2577DAB300535B69 /* AppDelegate.swift */; };
+		8F94692D2577DAB300535B69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F94692C2577DAB300535B69 /* SceneDelegate.swift */; };
+		8F94692F2577DAB300535B69 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F94692E2577DAB300535B69 /* LoginController.swift */; };
+		8F9469322577DAB300535B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9469302577DAB300535B69 /* Main.storyboard */; };
+		8F9469342577DAB400535B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9469332577DAB400535B69 /* Assets.xcassets */; };
+		8F9469372577DAB400535B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9469352577DAB400535B69 /* LaunchScreen.storyboard */; };
+		8F9469462577E40900535B69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F9469452577E40900535B69 /* GoogleService-Info.plist */; };
+		8FAFCD1925D2784300AB835E /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8FAFCD1825D2784300AB835E /* readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228A0EDF0AA9255515F68D22 /* Pods-E-COFFEE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-COFFEE.release.xcconfig"; path = "Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE.release.xcconfig"; sourceTree = "<group>"; };
+		8F1618F7257D3CAF00117BA5 /* coffeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeController.swift; sourceTree = "<group>"; };
+		8F161919257E575300117BA5 /* Settings2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings2Controller.swift; sourceTree = "<group>"; };
+		8F16191D257E65AA00117BA5 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		8F161920257E702300117BA5 /* machineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = machineController.swift; sourceTree = "<group>"; };
+		8F40A003257975DA00C266ED /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		8F79E5032577E6E800CDE4F1 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		8F9469272577DAB300535B69 /* E-COFFEE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-COFFEE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F94692A2577DAB300535B69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F94692C2577DAB300535B69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8F94692E2577DAB300535B69 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8F9469312577DAB300535B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9469332577DAB400535B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9469362577DAB400535B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9469382577DAB400535B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9469452577E40900535B69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8FAFCD1825D2784300AB835E /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		983CC8CCD8D63C2F1F28DD9A /* Pods-E-COFFEE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-COFFEE.debug.xcconfig"; path = "Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAC0026A6F97BE11C4E5B74 /* Pods_E_COFFEE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_COFFEE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9469242577DAB300535B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F409FDB2578CCD000C266ED /* Pods_E_COFFEE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D6A0A7565C1DD03B28AC7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDAC0026A6F97BE11C4E5B74 /* Pods_E_COFFEE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F40A0072579838C00C266ED /* icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		8F94691E2577DAB300535B69 = {
+			isa = PBXGroup;
+			children = (
+				8FAFCD1825D2784300AB835E /* readme.md */,
+				8F9469292577DAB300535B69 /* E-COFFEE */,
+				8F9469282577DAB300535B69 /* Products */,
+				D4A65D7090664EA1EBBE2B09 /* Pods */,
+				2D6A0A7565C1DD03B28AC7DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9469282577DAB300535B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9469272577DAB300535B69 /* E-COFFEE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9469292577DAB300535B69 /* E-COFFEE */ = {
+			isa = PBXGroup;
+			children = (
+				8F40A0072579838C00C266ED /* icon */,
+				8F9469302577DAB300535B69 /* Main.storyboard */,
+				8F94692A2577DAB300535B69 /* AppDelegate.swift */,
+				8F79E5032577E6E800CDE4F1 /* SignupController.swift */,
+				8F94692E2577DAB300535B69 /* LoginController.swift */,
+				8F40A003257975DA00C266ED /* SettingsController.swift */,
+				8F161919257E575300117BA5 /* Settings2Controller.swift */,
+				8F1618F7257D3CAF00117BA5 /* coffeeController.swift */,
+				8F161920257E702300117BA5 /* machineController.swift */,
+				8F94692C2577DAB300535B69 /* SceneDelegate.swift */,
+				8F16191D257E65AA00117BA5 /* InformationController.swift */,
+				8F9469332577DAB400535B69 /* Assets.xcassets */,
+				8F9469352577DAB400535B69 /* LaunchScreen.storyboard */,
+				8F9469382577DAB400535B69 /* Info.plist */,
+				8F9469452577E40900535B69 /* GoogleService-Info.plist */,
+			);
+			path = "E-COFFEE";
+			sourceTree = "<group>";
+		};
+		D4A65D7090664EA1EBBE2B09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983CC8CCD8D63C2F1F28DD9A /* Pods-E-COFFEE.debug.xcconfig */,
+				228A0EDF0AA9255515F68D22 /* Pods-E-COFFEE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9469262577DAB300535B69 /* E-COFFEE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F94693B2577DAB400535B69 /* Build configuration list for PBXNativeTarget "E-COFFEE" */;
+			buildPhases = (
+				E600F2701213EE8F5A6A492E /* [CP] Check Pods Manifest.lock */,
+				8F9469232577DAB300535B69 /* Sources */,
+				8F9469242577DAB300535B69 /* Frameworks */,
+				8F9469252577DAB300535B69 /* Resources */,
+				27D4C17DB150EABAFBED1DA4 /* [CP] Embed Pods Frameworks */,
+				7A1C2D8AC79A9A71E2C12115 /* [CP] Copy Pods Resources */,
+				8F0D9BDF25CB435E00FC94C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-COFFEE";
+			productName = "E-COFFEE";
+			productReference = 8F9469272577DAB300535B69 /* E-COFFEE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F94691F2577DAB300535B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					8F9469262577DAB300535B69 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 8F9469222577DAB300535B69 /* Build configuration list for PBXProject "E-COFFEE" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F94691E2577DAB300535B69;
+			productRefGroup = 8F9469282577DAB300535B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9469262577DAB300535B69 /* E-COFFEE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9469252577DAB300535B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9469372577DAB400535B69 /* LaunchScreen.storyboard in Resources */,
+				8F9469342577DAB400535B69 /* Assets.xcassets in Resources */,
+				8F9469322577DAB300535B69 /* Main.storyboard in Resources */,
+				8FAFCD1925D2784300AB835E /* readme.md in Resources */,
+				8F9469462577E40900535B69 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27D4C17DB150EABAFBED1DA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1C2D8AC79A9A71E2C12115 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0D9BDF25CB435E00FC94C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		E600F2701213EE8F5A6A492E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-COFFEE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F9469232577DAB300535B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F16191E257E65AA00117BA5 /* InformationController.swift in Sources */,
+				8F94692F2577DAB300535B69 /* LoginController.swift in Sources */,
+				8F1618F8257D3CAF00117BA5 /* coffeeController.swift in Sources */,
+				8F40A004257975DA00C266ED /* SettingsController.swift in Sources */,
+				8F16191A257E575300117BA5 /* Settings2Controller.swift in Sources */,
+				8F94692B2577DAB300535B69 /* AppDelegate.swift in Sources */,
+				8F94692D2577DAB300535B69 /* SceneDelegate.swift in Sources */,
+				8F161921257E702300117BA5 /* machineController.swift in Sources */,
+				8F79E5042577E6E800CDE4F1 /* SignupController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F9469302577DAB300535B69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9469312577DAB300535B69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F9469352577DAB400535B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9469362577DAB400535B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F9469392577DAB400535B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F94693A2577DAB400535B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F94693C2577DAB400535B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983CC8CCD8D63C2F1F28DD9A /* Pods-E-COFFEE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PPN77KHP5H;
+				INFOPLIST_FILE = "E-COFFEE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enzotoyos.ecoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8F94693D2577DAB400535B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228A0EDF0AA9255515F68D22 /* Pods-E-COFFEE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPN77KHP5H;
+				INFOPLIST_FILE = "E-COFFEE/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enzotoyos.ecoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F9469222577DAB300535B69 /* Build configuration list for PBXProject "E-COFFEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9469392577DAB400535B69 /* Debug */,
+				8F94693A2577DAB400535B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F94693B2577DAB400535B69 /* Build configuration list for PBXNativeTarget "E-COFFEE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F94693C2577DAB400535B69 /* Debug */,
+				8F94693D2577DAB400535B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F94691F2577DAB300535B69 /* Project object */;
+}
