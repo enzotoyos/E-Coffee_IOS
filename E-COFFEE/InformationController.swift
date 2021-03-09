@@ -74,7 +74,7 @@ class InformationController: UIViewController {
                 }
             }
         }))
-        alert.addAction(UIAlertAction(title: "annuler", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "annuler", style: .default, handler: nil))
     
         self.present(alert, animated: true, completion: nil)
     }//end function delete user
@@ -123,7 +123,7 @@ class InformationController: UIViewController {
                 }
             }
         }))
-        alert.addAction(UIAlertAction(title: "annuler", style: .cancel, handler: nil)) // bouton annuler de l'alerte
+        alert.addAction(UIAlertAction(title: "annuler", style: .default, handler: nil)) // bouton annuler de l'alerte
     
         self.present(alert, animated: true, completion: nil) // on affiche l'alerte
         
@@ -166,7 +166,7 @@ class InformationController: UIViewController {
                 }
             }
         }))
-        alert.addAction(UIAlertAction(title: "annuler", style: .cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "annuler", style: .default, handler: nil))
     
         self.present(alert, animated: true, completion: nil)
         
@@ -212,7 +212,7 @@ class InformationController: UIViewController {
                 }
             }
         }))
-        alert.addAction(UIAlertAction(title: "annuler", style: .cancel, handler: nil)) // bouton annuler de l'alerte
+        alert.addAction(UIAlertAction(title: "annuler", style: .default, handler: nil)) // bouton annuler de l'alerte
     
         self.present(alert, animated: true, completion: nil) // on affiche l'alerte
         
