@@ -26,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		228A0EDF0AA9255515F68D22 /* Pods-E-COFFEE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-COFFEE.release.xcconfig"; path = "Target Support Files/Pods-E-COFFEE/Pods-E-COFFEE.release.xcconfig"; sourceTree = "<group>"; };
+		8F13CFF425F7BC1E006DA8F7 /* E-COFFEE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "E-COFFEE.entitlements"; sourceTree = "<group>"; };
 		8F1618F7257D3CAF00117BA5 /* coffeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeController.swift; sourceTree = "<group>"; };
 		8F161919257E575300117BA5 /* Settings2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings2Controller.swift; sourceTree = "<group>"; };
 		8F16191D257E65AA00117BA5 /* InformationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		8F9469292577DAB300535B69 /* E-COFFEE */ = {
 			isa = PBXGroup;
 			children = (
+				8F13CFF425F7BC1E006DA8F7 /* E-COFFEE.entitlements */,
 				8F40A0072579838C00C266ED /* icon */,
 				8F9469302577DAB300535B69 /* Main.storyboard */,
 				8F94692A2577DAB300535B69 /* AppDelegate.swift */,
@@ -431,11 +433,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "E-COFFEE/E-COFFEE.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = PPN77KHP5H;
 				INFOPLIST_FILE = "E-COFFEE/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,10 +457,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "E-COFFEE/E-COFFEE.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PPN77KHP5H;
 				INFOPLIST_FILE = "E-COFFEE/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

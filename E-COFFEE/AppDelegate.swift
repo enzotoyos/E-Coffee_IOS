@@ -8,18 +8,14 @@
 import UIKit
 import Firebase
 import FBSDKCoreKit
-import GoogleSignIn
+
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         FirebaseApp.configure() // initialisation firebase
         return true
-    }
-    
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        print("user email: \(user.profile.email ?? "no email")")
     }
     
     // MARK: UISceneSession Lifecycle
@@ -37,7 +33,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
 
 
 }//END
-
-
-
-

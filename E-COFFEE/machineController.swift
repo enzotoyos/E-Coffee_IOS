@@ -70,6 +70,15 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
         
                 if etat == 0 && tasse == 1 {
                     
+                    //Attribut la valeur en fonction pour l'envoyer sur firebase
+                    if (self.coffee == "Espresso Classique"){
+                        self.coffee = "espresso"
+                    }
+                    else if (self.coffee == "Espresso Classique"){
+                        self.coffee = "long"
+                    }
+                    else{}
+                    
                  // envoie les 3 données a la BDD
                     self.ref.child("request_coffee").child("create_coffee").child("quantity").setValue(self.slider_value)
                     self.ref.child("request_coffee").child("create_coffee").child("type").setValue(self.coffee)
