@@ -16,9 +16,9 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
     var fileAttente = ""
     var slider_value = 0
     var coffee = "Espresso Classique"
-    var credits = 0
-    var lungo_price = 0
-    var espresso_price = 0
+    var credits = 0.0
+    var lungo_price = 0.0
+    var espresso_price = 0.0
     
     
     @IBOutlet weak var validerButton: UIButton!
@@ -44,8 +44,8 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
         let docRef = self.db.collection("users").document(uid ?? "erreur")
         docRef.getDocument { (document, error) in
             if let document = document, document.exists {
-                let creditsJson = document["credits"] as! Int // on récupere dans l'objet json le champ "credits"
-                self.credits = creditsJson
+                let creditsJson = document["credits"]// on récupere dans l'objet json le champ "credits"
+                self.credits = creditsJson as! Double
                 print(self.credits)
                 
                 /*
@@ -64,20 +64,17 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
         docRef.getDocument { (document, error) in
             
             if let document = document, document.exists {
-                let espressoPrice = document["espresso_price"]// on récupère dans l'objet Json le champ "espresso_price"
-                print(espressoPrice as Any)
-               
-                /*
-                 @TODO convertion de espressoPrice en float et l'affecter à 'espresso_price'
-                 */
                 
+                // on récupère dans l'objet Json le champ "espresso_price"
+                let espressoPrice = document["espresso_price"]
+                self.espresso_price = espressoPrice as! Double
+                print(self.espresso_price)
+
+                // gestion du prix du café lungo
                 let lungoPrice = document["lungo_price"]
-                print(lungoPrice as Any)
-                
-                /*
-                 @TODO convertion de lungoPrice en float et l'affecter à 'lungo_price'
-                 */
-                
+                self.lungo_price = lungoPrice as! Double
+                print(self.lungo_price)
+  
             } else {
                 print("Document does not exist")
             }
