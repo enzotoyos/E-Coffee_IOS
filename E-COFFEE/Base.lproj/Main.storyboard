@@ -1104,7 +1104,7 @@ Ce café à été cultivé avec amour, les cerises de café ont en effet été r
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adresse E-mail" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nCZ-Kz-q0Q">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adresse E-mail" borderStyle="roundedRect" placeholder="Adresse E-mail" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nCZ-Kz-q0Q">
                                 <rect key="frame" x="87.666666666666686" y="100" width="200" height="34"/>
                                 <color key="backgroundColor" red="0.98070084120000001" green="1" blue="0.95317421120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1114,7 +1114,7 @@ Ce café à été cultivé avec amour, les cerises de café ont en effet été r
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Entreprise" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3VJ-X5-o6F">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Entreprise" borderStyle="roundedRect" placeholder="Entreprise" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3VJ-X5-o6F">
                                 <rect key="frame" x="88" y="154" width="199" height="34"/>
                                 <color key="backgroundColor" red="0.98070084120000001" green="1" blue="0.95317421120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1138,7 +1138,7 @@ Ce café à été cultivé avec amour, les cerises de café ont en effet été r
                                     <action selector="signupButtonWasPressed:" destination="Cjp-fg-Noz" eventType="touchUpInside" id="Ieg-sa-Kgd"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nom &amp; Prénom" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Nj-W1-YjC">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nom &amp; Prénom" borderStyle="roundedRect" placeholder="Nom &amp; Prénom" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Nj-W1-YjC">
                                 <rect key="frame" x="87.666666666666686" y="50" width="200" height="30"/>
                                 <color key="backgroundColor" red="0.98070084120000001" green="1" blue="0.95317421120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1151,7 +1151,7 @@ Ce café à été cultivé avec amour, les cerises de café ont en effet été r
                                     <action selector="usernameTextField:" destination="yeo-2P-hXW" eventType="editingDidEnd" id="Z7O-94-HUY"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mot de Passe" borderStyle="roundedRect" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPp-vX-hD7">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mot de Passe" borderStyle="roundedRect" placeholder="Password" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TPp-vX-hD7">
                                 <rect key="frame" x="87.666666666666686" y="208" width="200" height="30"/>
                                 <color key="backgroundColor" red="0.98070084120000001" green="1" blue="0.95317421120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -1196,8 +1196,8 @@ Ce café à été cultivé avec amour, les cerises de café ont en effet été r
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="NZL-d2-Nj7"/>
-        <segue reference="5yL-WX-6Yc"/>
+        <segue reference="wuz-9n-Rvx"/>
+        <segue reference="aYw-aZ-PC0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="71vpJ1CMgvL._AC_SY679_" width="377" height="679"/>

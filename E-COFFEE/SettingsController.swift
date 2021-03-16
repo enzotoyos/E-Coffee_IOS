@@ -62,7 +62,7 @@ class SettingsController: UIViewController {
         let docRef = self.db.collection("users").document(uid ?? "erreur")
         docRef.getDocument { (document, error) in
             if let document = document, document.exists {
-                let creditsJson :Double = document["credits"] as! Double // on récupere dans l'objet json le champ "credits"
+                let creditsJson :Double = document["credits"] as! Double // on récupere dans l'objet Json le champ "credits"
                 self.credits = String(creditsJson)
                 print(self.credits)
                 self.nb_credits.text = self.credits
@@ -96,11 +96,5 @@ class SettingsController: UIViewController {
         UIApplication.shared.open(URL(string: "http://www.grainofcoffee.fr")!, options: [:], completionHandler: nil)
 
     }
-    
-    
-    
-    
-    
-    
 }// END class SettingController
 
