@@ -68,7 +68,8 @@ class SignupController: UIViewController {
                                                                         "email": self.emailTextField.text!,
                                                                         "username": self.usernameTextField.text!,
                                                                         "company": self.companyTextField.text!,
-                                                                        "nb_cafe": 0]){
+                                                                        "nb_cafe": 0,
+                                                                        "credits": 0]){
                         
                                 (error:Error?) in
                                 if let error = error{

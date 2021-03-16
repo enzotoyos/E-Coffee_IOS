@@ -15,9 +15,11 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
     var tasse = 00
     var fileAttente = ""
     var slider_value = 0
-    var coffee = ""
+    var coffee = "Espresso Classique"
+    var credits = 0
+    var lungo_price = 0
+    var espresso_price = 0
     
-
     
     @IBOutlet weak var validerButton: UIButton!
     @IBOutlet weak var temperatureSlider: UISlider!
@@ -31,7 +33,52 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
           super.viewDidLoad()
           ref = Database.database().reference()
           setupButtons()
+          getCredits()
+          getPrice()
       }
+    
+    // Gère le nombre de café de l'utilisateur
+    func getCredits() {
+        let user = Auth.auth().currentUser
+        let uid = user?.uid
+        let docRef = self.db.collection("users").document(uid ?? "erreur")
+        docRef.getDocument { (document, error) in
+            if let document = document, document.exists {
+                let creditsJson = document["credits"] as! Int // on récupere dans l'objet json le champ "credits"
+                self.credits = creditsJson
+                print(self.credits)
+                
+                //convertir les credits en float
+                /*
+                 @todo
+                 */
+                
+            } else {
+                print("Document does not exist")
+            }
+        }
+    }
+    
+    // récupère le prix des cafés actuels
+    func getPrice(){
+        let docRef = self.db.collection("data").document("BldJdYPkrJ2p8GrMuVj7")
+        docRef.getDocument { (document, error) in
+            
+            if let document = document, document.exists {
+                let espressoPrice = document["espresso_price"] // on récupère dans l'objet Json le champ "credits"
+                print(espressoPrice as Any)
+                
+                //convertion de espresso price en float
+                /*
+                 @todo
+                 */
+                
+            } else {
+                print("Document does not exist")
+            }
+        }
+    }
+    
     
     // utilisation du slider
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -60,7 +107,11 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
         validerButton.layer.borderColor = UIColor.white.cgColor
     }
     
+    // MARK: ENVOYER CAFÉ
     @IBAction func goButtonWasClicked(_ sender: UIButton) {
+        //recupere les credits de l'utilisateur
+        
+        print(credits)
         
         self.ref.child("state_machine").child("presence_tasse").observeSingleEvent(of: .value, with: { (snapshot) in
             if let tasse = snapshot.value as? Int {
@@ -75,11 +126,13 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
                         self.coffee = "espresso"
                     }
                     else if (self.coffee == "Espresso Classique"){
-                        self.coffee = "long"
+                        self.coffee = "café long"
                     }
                     else{}
                     
-                 // envoie les 3 données a la BDD
+
+                    
+                 // envoie les 3 données à la BDD
                     self.ref.child("request_coffee").child("create_coffee").child("quantity").setValue(self.slider_value)
                     self.ref.child("request_coffee").child("create_coffee").child("type").setValue(self.coffee)
                     self.ref.child("request_coffee").child("create_coffee").child("state").setValue(1)
