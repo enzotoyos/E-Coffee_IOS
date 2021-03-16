@@ -48,9 +48,8 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
                 self.credits = creditsJson
                 print(self.credits)
                 
-                //convertir les credits en float
                 /*
-                 @todo
+                 @todo convertir les credits en float et affecter à la variable 'credits'
                  */
                 
             } else {
@@ -65,12 +64,18 @@ class machineController: UIViewController,UIPickerViewDelegate, UIPickerViewData
         docRef.getDocument { (document, error) in
             
             if let document = document, document.exists {
-                let espressoPrice = document["espresso_price"] // on récupère dans l'objet Json le champ "credits"
+                let espressoPrice = document["espresso_price"]// on récupère dans l'objet Json le champ "espresso_price"
                 print(espressoPrice as Any)
-                
-                //convertion de espresso price en float
+               
                 /*
-                 @todo
+                 @TODO convertion de espressoPrice en float et l'affecter à 'espresso_price'
+                 */
+                
+                let lungoPrice = document["lungo_price"]
+                print(lungoPrice as Any)
+                
+                /*
+                 @TODO convertion de lungoPrice en float et l'affecter à 'lungo_price'
                  */
                 
             } else {

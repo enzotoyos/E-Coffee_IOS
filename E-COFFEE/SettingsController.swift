@@ -72,9 +72,6 @@ class SettingsController: UIViewController {
         }
     }
     
-    
-    
-    
     @IBAction func logOutButtonWasPressed(_ sender: UIButton) {
         
         do{
